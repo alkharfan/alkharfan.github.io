@@ -1,0 +1,81 @@
+﻿:root {
+    --color-1: #2B2D42;
+    --text-color: #EDF2F4;
+    --accent-color: #8D99AE;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-title {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+.fade-in-description {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out forwards;
+    animation-delay: 1s;
+}
+
+html {
+    font-size: 12pt;
+    font-family: Poppins, Segoe UI, Tahoma, sans-serif;
+}
+
+nav {
+    background-color: var(--color-1);
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.logo {
+    font-size: 26.6px;
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3 ease;
+}
+
+.navbar li a:hover {
+    background-color: var(--accent-color)
+}
+
+
+body {
+    background-color: var(--color-1);
+    color: var(--text-color);
+    font-family: 'Space Grotesk';
+    font-weight: lighter;
+    text-align: center;
+}
+
+.h1title {
+    font-size: 50px;
+}
+
