@@ -1,7 +1,9 @@
 ﻿:root {
-    --color-1: #2B2D42;
-    --text-color: #EDF2F4;
+    --color-1: #000000;
+    --color-2: #586F7C;
+    --text-color: #F4F4F9;
     --accent-color: #8D99AE;
+    font-family: 'helvetica';
 }
 
 @keyframes fadeIn {
@@ -24,13 +26,18 @@
     animation-delay: 1s;
 }
 
+.fade-in-navbar {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out forwards;
+    animation-delay: 1s;
+}
+
 html {
     font-size: 12pt;
-    font-family: Poppins, Segoe UI, Tahoma, sans-serif;
 }
 
 nav {
-    background-color: var(--color-1);
+    background-color: var(--color-2);
     padding: 16px 32px;
     display: flex;
     align-items: center;
@@ -58,7 +65,7 @@ nav ul {
 .navbar li a {
     color: var(--text-color);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 900;
     transition: color 0.3 ease;
 }
 
@@ -66,16 +73,31 @@ nav ul {
     background-color: var(--accent-color)
 }
 
-
 body {
-    background-color: var(--color-1);
     color: var(--text-color);
-    font-family: 'Space Grotesk';
     font-weight: lighter;
     text-align: center;
+    background-color: var(--color-1)
 }
 
+
 .h1title {
-    font-size: 50px;
+    display: block;
+    margin: 18% 25% 25% 25%;
+    font-size: 250px;
 }
+
+.description {
+    display: block;
+    width: 24%;
+    font-size: 40px;
+
+}
+
+
+
+
+
+
+
 
