@@ -30,6 +30,7 @@ html {
     font-size: 12pt;
     margin-top: auto;
     margin-bottom: auto;
+    font-family: 'BoldPixels';
 }
 
 
@@ -59,5 +60,6 @@ body {
     color: var(--color-2);
 
 }
+
 
 
