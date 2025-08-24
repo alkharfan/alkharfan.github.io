@@ -9,8 +9,8 @@
 @font-face {
 font-family: 'BoldPixels';
 src: url('BoldPixels.ttf') format("truetype");
-src: url('AnyConv.com__BoldPixels.woff') format("woff");
-src: url('AnyConv.com__BoldPixels.woff2') format("woff2");
+src: url('BoldPixels.woff') format("woff");
+src: url('BoldPixels.woff2') format("woff2");
 
 font-weight: normal;
 font-style: normal;
@@ -82,6 +82,7 @@ main {
 .aboutme {
     font-size: 3rem;
 }
+
 
 
 
