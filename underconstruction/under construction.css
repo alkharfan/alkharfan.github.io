@@ -8,13 +8,14 @@
 }
 
 @font-face {
-font-family: 'BoldPixels';
-src: url('../BoldPixels.ttf') format("truetype");
-     url('../BoldPixels.woff') format("woff");
-     url('../BoldPixels.woff2') format("woff2");
 
-font-weight: normal;
-font-style: normal;
+  font-family: 'BoldPixels';
+  src: url('../BoldPixels.woff2') format('woff2'),
+       url('../BoldPixels.woff') format('woff'),
+       url('../BoldPixels.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
 }
 
 @keyframes fadeIn {
@@ -60,6 +61,7 @@ body {
     color: var(--color-2);
 
 }
+
 
 
 
