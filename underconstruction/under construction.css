@@ -10,8 +10,8 @@
 @font-face {
 font-family: 'BoldPixels';
 src: url('../BoldPixels.ttf') format("truetype");
-src: url('../BoldPixels.woff') format("woff");
-src: url('../BoldPixels.woff2') format("woff2");
+     url('../BoldPixels.woff') format("woff");
+     url('../BoldPixels.woff2') format("woff2");
 
 font-weight: normal;
 font-style: normal;
@@ -59,4 +59,5 @@ body {
     color: var(--color-2);
 
 }
+
 
