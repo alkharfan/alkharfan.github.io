@@ -8,7 +8,7 @@
 
 @font-face {
 font-family: 'BoldPixels';
-src: url('BoldPixels.ttf') fomrat("truetype");
+src: url('../BoldPixels.ttf') fomrat("truetype");
 font-weight: normal;
 font-style: normal;
 }
@@ -74,6 +74,7 @@ main {
 .link:hover {
     opacity: 0.75;
 }
+
 
 
 
