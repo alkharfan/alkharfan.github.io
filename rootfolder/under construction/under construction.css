@@ -8,7 +8,7 @@
 }
 
 @font-face {
-font-family: 'BoldPixels';
+font-family: '../BoldPixels';
 src: url('BoldPixels.ttf') fomrat("truetype");
 font-weight: normal;
 font-style: normal;
@@ -54,4 +54,5 @@ body {
 .description a {
     text-decoration: none;
     color: var(--color-2);
+
 }
