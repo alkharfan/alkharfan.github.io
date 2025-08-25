@@ -85,9 +85,3 @@ main {
 .aboutme {
     font-size: 3rem;
 }
-
-
-.home-link {
-    font-size: 5rem;
-    color: var(--color-2);
-}
